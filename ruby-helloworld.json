@@ -10,7 +10,7 @@
     "ContainerImage": {
       "Type": "String",
       "Description": "Image to Deploy",
-      "Default": "090999229429.dkr.ecr.us-east-2.amazonaws.com/hello_world-ruby:latest"
+      "Default": "016582840202.dkr.ecr.us-east-1.amazonaws.com/hello_world:latest"
     },
     "TaskAmount": {
       "Type": "Number",
