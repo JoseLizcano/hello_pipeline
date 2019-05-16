@@ -6,7 +6,7 @@ pipeline {
 
   }
   parameters {
-        string(name: 'AWS_DEFAULT_REGION', defaultValue: 'us-east-2', description: 'The region to deploy to')
+        string(name: 'AWS_DEFAULT_REGION', defaultValue: 'us-east-1', description: 'The region to deploy to')
   }
   stages {
     stage('Test') {
